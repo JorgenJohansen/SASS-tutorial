@@ -7,8 +7,7 @@
         //adding the hover sudoclass
         &:hover {
             color: $val;
-        }
-        
+        }  
     }
 
     .bg-#{$key} {
@@ -46,9 +45,7 @@
                 background-color: mix(black, $val, $i * 10);
             }
         }
-
     }
-
 }
 
 @if(10 > 5){

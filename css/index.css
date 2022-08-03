@@ -400,7 +400,7 @@ img {
   background-color: #c2ff99;
 }
 
-.navbar .container, .navbar-primary .container, .navbar, .navbar-primary {
+.navbar .container, .navbar-secondary .container, .navbar-primary .container, .navbar, .navbar-secondary, .navbar-primary {
   width: 100%;
   display: flex;
   align-items: center;
@@ -408,15 +408,19 @@ img {
   box-sizing: border-box;
 }
 
-.navbar, .navbar-primary {
+.navbar, .navbar-secondary, .navbar-primary {
   padding: 1rem 2rem;
   box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
 }
-.navbar .site-title, .navbar-primary .site-title {
+.navbar .site-title, .navbar-secondary .site-title, .navbar-primary .site-title {
   font-size: 1.5rem;
 }
 .navbar-primary {
   background-color: indigo;
+}
+
+.navbar-secondary {
+  background-color: #1ac888;
 }
 
 .badge-orange {

@@ -10,9 +10,6 @@ $grid-gaps: (
 
 $layout-values: flex-start, flex-end, center, space-between, space-around;
 
-
-
-
 //mixin for columns
 @mixin column($i){
     box-sizing: border-box;
@@ -50,11 +47,8 @@ $layout-values: flex-start, flex-end, center, space-between, space-around;
       .justify-#{$val}{
         justify-content: $val;
       }
-
   }
   
-
-
 // @TODO: add mixin for the columns 
 // col classes
 // .col-xs-12 .col-md-6
@@ -97,4 +91,3 @@ $layout-values: flex-start, flex-end, center, space-between, space-around;
         }
     }
 }
-
